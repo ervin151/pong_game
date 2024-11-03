@@ -46,8 +46,8 @@ game = True
 print(ball.vector)
 while game :
     pong_screen.update()
-    # ball.move(paddle_l=left_paddle,paddle_r=right_paddle)
-    # time.sleep(0.1)
+    ball.move(paddle_l=left_paddle,paddle_r=right_paddle)
+    time.sleep(0.1)
 
     pass
 #
